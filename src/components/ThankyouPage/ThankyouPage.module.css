@@ -1,0 +1,45 @@
+.Thankpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.ThankyouPage {
+  background-color: white;
+  height: 100vh;
+
+  width: 500px;
+  height: fit-content;
+
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.ThankyouPage > p:nth-child(1) {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.ThankyouPage > button {
+  display: block;
+
+  margin-left: auto;
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 20%;
+  height: 30px;
+  color: rgba(0, 0, 0, 0.89);
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  border-radius: 5px;
+  transition-duration: 200ms;
+  cursor: pointer;
+}
+.ThankyouPage > button:hover {
+  background: #ecb425;
+  color: black;
+  font-weight: 540;
+}

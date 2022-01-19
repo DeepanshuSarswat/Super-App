@@ -1,0 +1,114 @@
+.Header {
+  background-color: #131921;
+  color: white;
+  /* justify-content: space-between; */
+  height: 65px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  z-index: 100;
+}
+.Header_logo > img {
+  height: 50px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+  overflow: hidden;
+}
+.Header_logo {
+  margin: 1px;
+  padding: 1px 8px 0px 6px;
+}
+.Header_left {
+  display: flex;
+  align-items: center;
+}
+.Address {
+  display: flex;
+  align-items: center;
+  margin: 5px 2px 5px 0px;
+  padding: 0 12px 0px 9px;
+}
+.Header_middle {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.Header_middle > div {
+  background-color: #cd9042;
+  padding: 8px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Header_right {
+  display: flex;
+  align-items: center;
+}
+.Address_logo {
+  margin-top: auto;
+}
+.icon_add {
+  height: 18px !important;
+  width: 15 !important;
+}
+.Address_Details > p:nth-child(1),
+.Header_right > .nav_option > p:nth-child(1) {
+  font-size: 12px;
+  color: #cccccc;
+  font-weight: 550;
+}
+.Address_Details > p:nth-child(2),
+.Header_right > .nav_option > p:nth-child(2) {
+  font-size: 14px;
+  color: #ffffff;
+  padding: 0 0 1px;
+  font-weight: 650;
+}
+.nav_option {
+  margin: 5px 2px 5px 0px;
+  padding: 0 9px;
+}
+.Header_middle {
+  flex-grow: 1;
+  background-color: white;
+  /* padding: 0px 10px; */
+  border-radius: 4px;
+}
+.Header_right {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.Header_middle > input {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  outline: none;
+}
+.searchIcon {
+  color: #0f1111 !important;
+  border: 0;
+}
+.shopping {
+  color: white;
+  height: 35px !important;
+  width: 35px !important;
+}
+.nav_options {
+  margin: 5px 2px 5px 0px;
+  padding: 0 9px;
+  display: flex;
+  align-items: center;
+}
+.countNumber {
+  margin-left: 4px;
+  font-size: 14px;
+  /* color: #ffffff; */
+  color: #cd9042;
+
+  font-weight: 650;
+}

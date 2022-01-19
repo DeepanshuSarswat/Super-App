@@ -1,0 +1,93 @@
+.Payment {
+  padding: 30px;
+  background-color: white;
+  width: 70%;
+  margin: 20px auto;
+}
+.ActuallPayment,
+.PaymentDetails {
+  margin-top: 20px;
+}
+.MiddlleLeftImage > img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+.leftMiddle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1.5px solid whitesmoke;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.leftMiddle_left {
+  margin-left: 12px;
+}
+.leftMiddle_left > p:nth-child(1) {
+  color: #0f1111;
+  font-size: 18px;
+  font-weight: 500;
+}
+.leftMiddle_left > p:nth-child(3) {
+  color: #007185;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.leftMiddle_left > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.leftMiddle_left > div > p {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+.leftMiddle_right {
+  margin-bottom: auto;
+  font-weight: 700;
+}
+.paymentAddres > p:nth-child(1) {
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.paymentAddres > p:nth-child(2),
+.paymentAddres > p:nth-child(3),
+.paymentAddres > p:nth-child(4) {
+  font-weight: 400;
+  font-size: 14px;
+}
+.orderTotal {
+  display: block;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.orderTotal > strong {
+  margin-left: 4px;
+}
+
+.paymentbutton {
+  display: block;
+  margin-top: 12px;
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 10%;
+  height: 30px;
+  color: rgba(0, 0, 0, 0.89);
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  border-radius: 5px;
+  transition-duration: 200ms;
+  cursor: pointer;
+}
+.paymentbutton:hover {
+  background: #eeac07;
+  color: black;
+  font-weight: 540;
+}

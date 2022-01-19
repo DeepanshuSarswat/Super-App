@@ -1,0 +1,132 @@
+.ChoeckoOut {
+  margin: 20px;
+}
+.Left_part {
+  padding: 20px;
+  background-color: white;
+}
+.leftHeader {
+  border-bottom: 1px solid #a8a29e;
+  padding-bottom: 3px;
+}
+.leftHeader > h3 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+}
+.leftHeader > p {
+  color: #007185;
+  font-size: 14px;
+  line-height: 20px;
+  transition-duration: 260ms;
+}
+.leftHeader > span {
+  columns: #565959;
+  display: block;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 450;
+}
+.leftHeader > p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #b91c1c;
+}
+.MiddlleLeftImage > img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+.leftMiddle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1.5px solid whitesmoke;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.leftMiddle_left {
+  margin-left: 12px;
+}
+.leftMiddle_left > p:nth-child(1) {
+  color: #0f1111;
+  font-size: 18px;
+  font-weight: 500;
+}
+.leftMiddle_left > p:nth-child(3) {
+  color: #007185;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.leftMiddle_left > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.leftMiddle_left > div > p {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+.leftMiddle_left > div > button {
+  display: block;
+  background-color: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  padding: 2px 4px;
+  cursor: pointer;
+  transition-duration: 190ms;
+  margin-right: 20px;
+}
+.leftMiddle_left > div > button:hover {
+  border: 1px solid;
+  border-color: #be9428 #ce9a16 #caa137;
+  font-weight: 500;
+}
+.leftMiddle_right {
+  margin-bottom: auto;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.leftMiddle_right > p {
+  font-weight: 700;
+}
+.right_partone {
+  margin-bottom: 14px;
+}
+.right_partone > img {
+  width: 100%;
+}
+.right_partsecond {
+  padding: 20px;
+}
+.right_partsecond > P {
+  font-size: 18px;
+}
+.right_partsecond > div {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+.right_partsecond > div > input {
+  margin-right: 6px;
+  margin-top: 3px;
+}
+.right_partsecond > button {
+  display: block;
+  margin: 8px auto;
+  display: block;
+  background-color: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  padding: 2px 4px;
+  cursor: pointer;
+  transition-duration: 190ms;
+  width: 100%;
+  padding: 3px 0px;
+}

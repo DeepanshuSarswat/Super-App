@@ -1,0 +1,142 @@
+/* .LoginPage {
+  width: 30%;
+  background-color: white;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.LoginPageCreate {
+  margin-top: -28px;
+  padding: 20px;
+  padding-top: 0;
+}
+.LoginPageImg {
+  height: 120px;
+  object-fit: contain;
+  display: block;
+  margin: -16px auto;
+  overflow: hidden;
+}
+
+.LoginPageCreate > .createAcount {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+form > label {
+  font-size: 14px;
+  font-weight: 640;
+  margin-bottom: 1px;
+}
+form > input {
+  width: 324.3px;
+  padding: 0 4px;
+
+  margin-bottom: 12px;
+  outline: 0;
+  border: 1px solid rgba(0, 0, 0, 0.589);
+  border-radius: 3px;
+
+  line-height: 2.4;
+  margin-top: 2px;
+}
+form > input:focus {
+  border: 2px solid #f0c14b;
+}
+.policy {
+  font-size: 12px !important;
+  font-weight: 500;
+}
+span {
+  color: #0066c0;
+}
+.LoginPageSubmit {
+  border: 1px solid;
+  background: #f0c14b;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  padding: 2px 0px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 2px;
+  width: 333.3px;
+} */
+.login {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.login__container {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+.login__container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.login__container > form > h5 {
+  margin-bottom: 5px;
+}
+
+.login__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+
+  padding: 0 4px;
+
+  margin-bottom: 12px;
+  outline: 0;
+  border: 1px solid rgba(0, 0, 0, 0.589);
+  border-radius: 3px;
+
+  line-height: 2.4;
+  margin-top: 2px;
+}
+
+.login__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.login__signInButton {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+
+.login__registerButton {
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: darkgray;
+}

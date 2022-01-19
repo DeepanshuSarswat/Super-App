@@ -1,0 +1,35 @@
+.TwoProduct {
+  padding: 0px 30px;
+}
+/* .GridBackground {
+    background-color: white;
+  }
+  .box {
+    color: red;
+  } */
+.productImage {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+  height: 320px;
+  margin: 16px auto;
+}
+.button_basket {
+  margin: 20px auto;
+  display: block;
+}
+.button_basket {
+  display: block;
+  background-color: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  padding: 2px 4px;
+  cursor: pointer;
+  transition-duration: 240ms;
+}
+.button_basket:hover {
+  border: 2px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+}

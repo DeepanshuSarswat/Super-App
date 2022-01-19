@@ -1,0 +1,16 @@
+.HomeImages > img {
+  width: 100%;
+  margin-bottom: -270px;
+
+  mask-image: linear-gradient(
+    to bottom,
+    rgb(119, 68, 68),
+    rgb(226, 232, 240, 0)
+  );
+  z-index: -1000 !important;
+}
+.home_row {
+  padding: 16px;
+
+  z-index: 100;
+}
