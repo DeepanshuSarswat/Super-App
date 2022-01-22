@@ -8,7 +8,8 @@ import { selectCounterAddress, userBasket } from "../../features/counterSlice";
 import { useNavigate } from "react-router-dom";
 import { userUser } from "../../features/counterSlice";
 import { auth } from "../../firebase";
-
+import { useDispatch } from "react-redux";
+import { CounterAddress } from "../../features/counterSlice";
 function Header() {
   const LoginUser = useSelector(userUser);
   let address = useSelector(selectCounterAddress);
@@ -27,7 +28,7 @@ function Header() {
     if (LoginUser) {
       auth.signOut();
     }
-
+dispatch(CounterAddress(null));
     nevigate("/signin");
   };
   console.log(user, "user");
