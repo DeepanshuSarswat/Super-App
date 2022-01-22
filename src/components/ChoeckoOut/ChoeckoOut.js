@@ -52,6 +52,7 @@ function ChoeckoOut() {
     const newUserData = newUser.filter((data) => id != data.id);
     console.log(newUserData);
     setnewUser(newUserData);
+    dispatch(finalItems(newUserData));
     // dispatch(userCounter(newUser));
   };
   console.log(newUser);
