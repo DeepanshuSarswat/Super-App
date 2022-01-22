@@ -32,7 +32,13 @@ dispatch(CounterAddress(null));
     nevigate("/signin");
   };
   console.log(user, "user");
-
+ const Checkcart = () => {
+    if (LoginUser) {
+      nevigate("/checkout");
+    } else {
+      alert("please register yourself");
+    }
+  };
   return (
     <div className={styles.Header}>
       <div className={styles.Header_left}>
@@ -78,7 +84,8 @@ dispatch(CounterAddress(null));
         <div className={styles.nav_options}>
           <LocalMallIcon
             className={styles.shopping}
-            onClick={() => nevigate("/checkout")}
+onClick={Checkcart}
+//             onClick={() => nevigate("/checkout")}
           />
           <p className={styles.countNumber}>{user.length}</p>
         </div>
