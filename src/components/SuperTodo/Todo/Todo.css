@@ -1,0 +1,116 @@
+.mainbody {
+  background-color: #131921;
+  height: 100vh;
+  padding-top: 4rem;
+}
+.main {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  width: 600px;
+  margin: auto;
+  background-color: #232f3e;
+  padding: 32px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+}
+h3 {
+  background-color: #232f3e;
+  color: white;
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 2rem;
+}
+.btn-sumit {
+  padding: 6px 8px;
+  background-color: #f0c14b;
+  border: 0;
+  border-radius: 3px;
+  margin-left: 0%;
+  transition: background-color 0.4s ease-in;
+}
+.btn-sumit:hover {
+  background-color: #e7b330;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+}
+.input {
+  padding: 4px 4px 4px 16px;
+  width: 100%;
+  background-color: #f1f5f8;
+  border: 0;
+  margin-right: 0%;
+  border-radius: 2px;
+  letter-spacing: 2px;
+}
+.form {
+  width: 100%;
+  display: flex;
+}
+.grocery-container {
+  margin-top: 32px;
+}
+.grocery-items {
+  margin-bottom: 8px;
+
+  padding: 4px 16px;
+  display: flex;
+  justify-content: space-between;
+  transition: background-color 0.4s ease-in;
+}
+.grocery-items:hover {
+  background-color: #f1f5f8;
+}
+.grocery-items p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.btn {
+  width: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  color: white;
+}
+button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  margin-left: 0.15rem;
+}
+.edit {
+  color: #6be675;
+  transition: color 0.4s ease-in;
+}
+.edit:hover {
+  color: #25bb32;
+}
+.dlt {
+  color: #e66b6b;
+  transition: color 0.4s ease-in;
+}
+.dlt:hover,
+.clear-items:hover {
+  color: #bb2525;
+}
+.clear-items {
+  display: block;
+  margin: 20px auto;
+  color: #e66b6b;
+  transition: color 0.4s ease-in;
+}
+.alert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  font-size: 12px;
+  padding: 4px 0px;
+}
+.alert-success {
+  background-color: #6be67538;
+}
+.alert-danger {
+  background-color: #e66b6b40;
+}

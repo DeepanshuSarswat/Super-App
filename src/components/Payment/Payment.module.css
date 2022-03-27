@@ -70,7 +70,12 @@
 .orderTotal > strong {
   margin-left: 4px;
 }
-
+.ActuallPayment > h3 {
+  text-align: left;
+  color: black;
+  background-color: transparent;
+  font-weight: 550;
+}
 .paymentbutton {
   display: block;
   margin-top: 12px;

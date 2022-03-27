@@ -32,6 +32,13 @@
   cursor: pointer;
   color: #b91c1c;
 }
+.leftHeader > h3 {
+  text-align: left;
+  background-color: transparent;
+  color: black;
+  margin-bottom: 0;
+  font-size: 2rem;
+}
 .MiddlleLeftImage > img {
   height: 200px;
   width: 200px;

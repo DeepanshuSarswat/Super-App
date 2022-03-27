@@ -19,6 +19,7 @@ function HderPayment() {
   return (
     <div>
       <Header />
+
       <Elements stripe={promise}>
         <Payment finalItems={finalItems} />
       </Elements>

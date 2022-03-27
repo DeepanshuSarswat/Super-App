@@ -15,6 +15,7 @@ export const counterSlice = createSlice({
     Selectcounter: (state, action) => {
       state.SelectedCounter = action.payload;
       console.log(state.SelectedCounter);
+      console.log(state.basket);
       state.basket = [...state.basket, state.SelectedCounter];
       console.log(state.basket);
     },

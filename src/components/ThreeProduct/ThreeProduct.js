@@ -24,7 +24,7 @@ function ThreeProduct() {
   const itemData = [
     {
       id: 2,
-      desc: "Woodiva Multipurpose Folding Newspaper Holder Bin for Magazines,Paper, Records, Artwork,...",
+      desc: "Woodiva Multipurpose Folding NewspaperFolding Newspaper Holder Bin for Magazines,Paper, Records, Artwork,...",
       price: "625",
       priceR: 625,
       rating: <Rating />,

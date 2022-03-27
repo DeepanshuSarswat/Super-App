@@ -14,6 +14,9 @@ import { userCounter } from "./features/counterSlice";
 import HderPayment from "./components/HderPayment/HderPayment";
 import Address from "./components/AddressPage/Address";
 import ThankyouPage from "./components/ThankyouPage/ThankyouPage";
+import Supertodo from "./components/SuperTodo/Supertodo";
+import SuperMoive from "./components/SuperMovie/SuperMoive";
+import Superweather from "./components/SuperWeather/Superweather";
 
 function App() {
   const user = useSelector(userUser);
@@ -42,6 +45,10 @@ function App() {
           <Route path="/checkout/Address" element={<Address />} />
           <Route path="/payment/Address" element={<Address />} />
           <Route path="/signin" element={<LoginPage />} />
+          <Route path="/SuperTodo" element={<Supertodo />} />
+          <Route path="/SuperWeather" element={<Superweather />} />
+
+          <Route path="/supermovie" element={<SuperMoive />} />
           <Route path="/checkout" element={<CheckoutComponents />} />
           <Route path="/payment" element={<HderPayment />} />
           <Route path="/ThankyouPage" element={<ThankyouPage />} />
