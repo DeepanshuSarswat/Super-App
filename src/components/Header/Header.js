@@ -29,17 +29,26 @@ function Header() {
     if (LoginUser) {
       auth.signOut();
     }
+<<<<<<< HEAD
     dispatch(CounterAddress(null));
     nevigate("/signin");
   };
   console.log(user, "user");
   const Checkcart = () => {
+=======
+dispatch(CounterAddress(null));
+    nevigate("/signin");
+  };
+  console.log(user, "user");
+ const Checkcart = () => {
+>>>>>>> dd6f6c7242c582c47fa09fb876d9e9be4d031b39
     if (LoginUser) {
       nevigate("/checkout");
     } else {
       alert("please register yourself");
     }
   };
+<<<<<<< HEAD
   let GotoTodo = () => {
     nevigate("/SuperTodo");
   };
@@ -49,6 +58,8 @@ function Header() {
   let GotoWeather = () => {
     nevigate("/SuperWeather");
   };
+=======
+>>>>>>> dd6f6c7242c582c47fa09fb876d9e9be4d031b39
   return (
     <div className={styles.headerpr}>
       <div className={styles.Header}>
@@ -83,6 +94,7 @@ function Header() {
             <SearchIcon className={styles.searchIcon} />
           </div>
         </div>
+<<<<<<< HEAD
         <div className={styles.Header_right}>
           <div className={styles.nav_option}>
             <p>Hello ,{LoginUser ? LoginUser.email : " User"}</p>
@@ -100,6 +112,25 @@ function Header() {
             />
             <p className={styles.countNumber}>{user.length}</p>
           </div>
+=======
+      </div>
+      <div className={styles.Header_right}>
+        <div className={styles.nav_option}>
+          <p>Hello ,{LoginUser ? LoginUser.email : " User"}</p>
+          <p onClick={handelSign}>{LoginUser ? "Sign Out" : "Sign In"}</p>
+        </div>{" "}
+        <div className={styles.nav_option}>
+          <p>Returns</p>
+          <p>& Orders</p>
+        </div>{" "}
+        <div className={styles.nav_options}>
+          <LocalMallIcon
+            className={styles.shopping}
+onClick={Checkcart}
+//             onClick={() => nevigate("/checkout")}
+          />
+          <p className={styles.countNumber}>{user.length}</p>
+>>>>>>> dd6f6c7242c582c47fa09fb876d9e9be4d031b39
         </div>
       </div>
       <div className={styles.options}>
